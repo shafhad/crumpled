@@ -4,10 +4,10 @@ class Ground {
         isStatic : true,
       }
 
-      this.body = Bodies.rectangle(x, y, width, height, options);
+      
       this.width = width;
       this.height = height;
-      
+      this.body = Bodies.rectangle(x, y, width, height, options);
       World.add(world, this.body);
     }
     display(){
